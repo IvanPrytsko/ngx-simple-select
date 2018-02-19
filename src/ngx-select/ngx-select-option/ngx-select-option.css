@@ -1,0 +1,8 @@
+.ngx-option-text {
+    display: block;
+}
+
+.ngx-option-text:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

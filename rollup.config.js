@@ -8,14 +8,15 @@ export default {
         globals: {
             '@angular/core': 'ng.core',
             'rxjs/Observable': 'Rx',
-            'rxjs/ReplaySubject': 'Rx',
+            'rxjs/Subject': 'Rx',
             'rxjs/operators': 'Rx.Observable.prototype',
-            'rxjs/add/operator/map': 'Rx.Observable.prototype',
-            'rxjs/add/operator/takeUntil': 'Rx.Observable.prototype',
-            'rxjs/add/operator/mergeMap': 'Rx.Observable.prototype',
-            'rxjs/add/observable/fromEvent': 'Rx.Observable',
-            'rxjs/add/observable/of': 'Rx.Observable',
-            'rxjs/add/observable/defer': 'Rx.Observable'
+            'rxjs/operators/switchMap': 'Rx.Observable.prototype',
+            'rxjs/operators/filter': 'Rx.Observable.prototype',
+            'rxjs/operators/take': 'Rx.Observable.prototype',
+            'rxjs/operators/takeUntil': 'Rx.Observable.prototype',
+            'rxjs/operators/startWith': 'Rx.Observable.prototype',
+            'rxjs/observable/defer': 'Rx.Observable',
+            'rxjs/observable/merge': 'Rx.Observable'
         }
     },
     name: 'MyModule',

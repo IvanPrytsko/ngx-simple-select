@@ -33,13 +33,13 @@ import {
     ElementRef, AfterViewInit
 } from '@angular/core';
 import { ControlValueAccessor, NgControl } from '@angular/forms';
+import { Observable } from 'rxjs/Observable';
+import { Subject } from 'rxjs/Subject';
 import { take } from 'rxjs/operators/take';
 import { switchMap } from 'rxjs/operators/switchMap';
 import { startWith } from 'rxjs/operators/startWith';
 import { takeUntil } from 'rxjs/operators/takeUntil';
 import { filter } from 'rxjs/operators/filter';
-import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject';
 import { defer } from 'rxjs/observable/defer';
 import { merge } from 'rxjs/observable/merge';
 
